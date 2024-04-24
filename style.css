@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+  font-family: Inter, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.small-heading {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: rgba(185, 187, 191, 1);
+}
+
+.main-heading {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.89px;
+  text-align: left;
+}
+
+.divider {
+  border: 1px solid rgba(228, 228, 228, 1)
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10vw;
+  gap: 100px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.product-image {
+  flex-basis: 50%;
+  text-align: center;
+}
+
+.product-image img {
+  max-width: 100%;
+  width: 587px;
+  height: 691px;
+  gap: 0px;
+  border-radius: 10px;
+  border: 1px;
+  opacity: 0px;
+}
+
+.image-wrapper {
+  display: flex;
+  flex-direction: column
+}
+
+.image-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.image {
+  width: 115px;
+  height: 115px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+
+.product-details {
+  flex-basis: 50%;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.original-price {
+  text-decoration: line-through;
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25.41px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.sale-price {
+  font-size: 34px;
+  font-family: Inter;
+  font-weight: 700;
+  color: #3A4980;
+}
+
+.discount {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25.41px;
+  text-align: left;
+  color: #FF000080;
+  margin-left: 10px;
+}
+
+.choose-color {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  color: #B9BBBF;
+
+}
+
+
+.grey-btn {
+  width: 169px;
+  height: 59px;
+  border-radius: 29.5px;
+  background: rgba(243, 243, 243, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.grey-btn p {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.63px;
+  text-align: left;
+  color: rgba(58, 73, 128, 1);
+}
+
+.grey-btn span {
+  margin: 0 20px;
+  /* Margin of 0 on top/bottom, 10px on left/right */
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  text-align: left;
+
+}
+
+.cart-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.description-container {
+  width: 558px;
+  height: 224px
+}
+
+.description {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+  color: rgba(163, 163, 163, 1);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+
+}
+
+
+
+.size-options {
+  margin-bottom: 20px;
+}
+
+.size-options h3 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: rgba(185, 187, 191, 1);
+}
+
+.btn-container {
+  display: flex;
+  /* Make buttons behave like a row */
+  gap: 8px;
+  /* Set gap between buttons */
+}
+
+
+.small-btn {
+  padding: 7px 10px 7px 10px;
+  width: 81px;
+  height: 31px;
+  border-radius: 8px;
+}
+
+
+.add-to-cart {
+  background-color: #3A4980;
+  color: #fff;
+  padding: 10px 20px;
+  width: 309px;
+  height: 59px;
+  border-radius: 29.5px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Inter;
+  margin-top: 20px;
+}
+
+
+
+
+.container {
+  display: flex;
+  align-items: center;
+
+}
+
+.checkmark-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkmark-box {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.checkmark1 {
+  background-color: #ECDECC;
+}
+
+.checkmark2 {
+  background-color: #BBD278;
+}
+
+.checkmark3 {
+  background-color: #BBC1F8;
+}
+
+.checkmark4 {
+  background-color: #FFD3F8;
+}
+
+.checkmark-icon {
+  display: none;
+  color: white;
+}
+
+.selected {
+  border: 2px solid transparent;
+  /* Initially transparent border */
+  padding: 1px;
+  /* Add padding to the border */
+}
+
+.selected .checkmark-icon {
+  display: block;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  padding: 7px 10px 7px 10px;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  /* Grey background */
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+label:hover {
+  background-color: #e0e0e0;
+  /* Darker grey background on hover */
+}
+
+input[type="radio"]:checked {
+
+  accent-color: rgba(58, 73, 128, 1);
+
+}
